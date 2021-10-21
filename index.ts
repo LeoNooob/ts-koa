@@ -1,3 +1,4 @@
 import run from "./app"
+import config from "./app/config";
 
-run(888)
+run(config.server.port)
